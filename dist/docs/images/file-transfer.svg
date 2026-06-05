@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">File transfer screen</title>
+  <desc id="desc">A visual mockup of CV Bridge file upload and download workflow.</desc>
+  <rect width="1200" height="460" rx="28" fill="#f1f5f9"/>
+  <text x="70" y="70" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="760">文件传输</text>
+  <text x="70" y="106" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="18">用同一套 SSH 配置上传代码、下载结果，目录也可以递归传输。</text>
+  <g transform="translate(84 150)">
+    <rect width="1032" height="230" rx="18" fill="#ffffff" stroke="#dbe4ee"/>
+    <g transform="translate(36 34)">
+      <text x="0" y="0" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">本地路径</text>
+      <rect x="0" y="14" width="540" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="16" y="41" fill="#475569" font-family="Consolas, monospace" font-size="14">C:\Projects\demo\main.py</text>
+      <rect x="560" y="14" width="90" height="42" rx="9" fill="#475569"/>
+      <text x="588" y="41" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">文件</text>
+      <rect x="662" y="14" width="90" height="42" rx="9" fill="#475569"/>
+      <text x="690" y="41" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">目录</text>
+    </g>
+    <g transform="translate(36 110)">
+      <text x="0" y="0" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">服务器路径</text>
+      <rect x="0" y="14" width="540" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="16" y="41" fill="#475569" font-family="Consolas, monospace" font-size="14">~/work/demo/main.py</text>
+      <rect x="560" y="14" width="118" height="42" rx="9" fill="#0f766e"/>
+      <text x="590" y="41" fill="#ecfeff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">上传文件</text>
+      <rect x="694" y="14" width="118" height="42" rx="9" fill="#0284c7"/>
+      <text x="724" y="41" fill="#eff6ff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">下载文件</text>
+      <rect x="832" y="14" width="114" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="850" y="26" width="18" height="18" rx="4" fill="#0f766e"/>
+      <path d="M854 35 l4 4 l8 -10" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="878" y="41" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">目录递归</text>
+    </g>
+    <g transform="translate(36 180)">
+      <rect width="946" height="1" fill="#e2e8f0"/>
+      <text x="0" y="30" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="14">状态：上传完成  C:\Projects\demo\main.py  ->  ~/work/demo/main.py</text>
+    </g>
+  </g>
+</svg>

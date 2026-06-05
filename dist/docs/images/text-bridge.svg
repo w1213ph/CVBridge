@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Clipboard bridge flow</title>
+  <desc id="desc">Text moves from Windows to Linux through SSH and becomes available in the remote desktop clipboard.</desc>
+  <rect width="1200" height="460" rx="28" fill="#f8fafc"/>
+  <text x="70" y="68" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="760">文本桥接</text>
+  <text x="70" y="104" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="18">把本地 AI 生成的代码送到远程 Linux，远程桌面直接 Ctrl+V。</text>
+  <g transform="translate(70 145)">
+    <rect width="300" height="210" rx="18" fill="#ffffff" stroke="#dbe4ee"/>
+    <rect width="300" height="46" rx="18" fill="#1e293b"/>
+    <rect y="32" width="300" height="20" fill="#1e293b"/>
+    <text x="22" y="30" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Windows</text>
+    <text x="24" y="76" fill="#0f172a" font-family="Consolas, monospace" font-size="14">const msg = "hello";</text>
+    <text x="24" y="101" fill="#0f172a" font-family="Consolas, monospace" font-size="14">console.log(msg);</text>
+    <rect x="24" y="144" width="150" height="38" rx="8" fill="#0f766e"/>
+    <text x="53" y="169" fill="#ecfeff" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">发送到服务器</text>
+  </g>
+  <g transform="translate(430 196)">
+    <path d="M0 34 H245" stroke="#0891b2" stroke-width="8" stroke-linecap="round"/>
+    <path d="M245 34 l-30 -22 v44 z" fill="#0891b2"/>
+    <rect x="58" y="-5" width="126" height="44" rx="22" fill="#ecfeff" stroke="#67e8f9"/>
+    <text x="83" y="23" fill="#0e7490" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="760">SSH/SCP</text>
+  </g>
+  <g transform="translate(750 145)">
+    <rect width="300" height="210" rx="18" fill="#ffffff" stroke="#dbe4ee"/>
+    <rect width="300" height="46" rx="18" fill="#164e63"/>
+    <rect y="32" width="300" height="20" fill="#164e63"/>
+    <text x="22" y="30" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Linux Desktop</text>
+    <rect x="26" y="70" width="248" height="42" rx="9" fill="#ecfeff" stroke="#67e8f9"/>
+    <text x="44" y="97" fill="#155e75" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">系统剪贴板已更新</text>
+    <text x="26" y="142" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="15">fallback 文件：</text>
+    <text x="26" y="168" fill="#475569" font-family="Consolas, monospace" font-size="13">~/.server_clipboard_bridge/</text>
+    <text x="26" y="190" fill="#475569" font-family="Consolas, monospace" font-size="13">clipboard.txt</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Logs and history panel</title>
+  <desc id="desc">A visual mockup of CV Bridge remote clipboard history and real-time logs.</desc>
+  <rect width="1200" height="460" rx="28" fill="#0f172a"/>
+  <text x="70" y="70" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="760">历史记录和实时日志</text>
+  <text x="70" y="106" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="18">每次发送、获取、上传和错误都会留下可追踪的记录。</text>
+  <g transform="translate(78 146)">
+    <rect width="488" height="246" rx="18" fill="#f8fafc"/>
+    <text x="28" y="42" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="760">远端剪贴板历史</text>
+    <rect x="28" y="64" width="432" height="1" fill="#cbd5e1"/>
+    <text x="28" y="96" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">时间</text>
+    <text x="210" y="96" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">字节</text>
+    <text x="300" y="96" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">预览</text>
+    <rect x="28" y="116" width="432" height="42" rx="8" fill="#ecfeff"/>
+    <text x="44" y="142" fill="#0e7490" font-family="Segoe UI, Arial, sans-serif" font-size="14">2026-06-05 09:42</text>
+    <text x="218" y="142" fill="#0e7490" font-family="Segoe UI, Arial, sans-serif" font-size="14">128</text>
+    <text x="300" y="142" fill="#0e7490" font-family="Segoe UI, Arial, sans-serif" font-size="14">def hello...</text>
+    <text x="44" y="184" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="14">2026-06-05 09:40</text>
+    <text x="218" y="184" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="14">64</text>
+    <text x="300" y="184" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="14">hello world</text>
+    <rect x="28" y="204" width="86" height="30" rx="7" fill="#475569"/>
+    <text x="56" y="225" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">刷新</text>
+    <rect x="126" y="204" width="86" height="30" rx="7" fill="#0f766e"/>
+    <text x="154" y="225" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">加载</text>
+    <rect x="224" y="204" width="86" height="30" rx="7" fill="#475569"/>
+    <text x="252" y="225" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">复制</text>
+  </g>
+  <g transform="translate(624 146)">
+    <rect width="498" height="246" rx="18" fill="#020617" stroke="#334155"/>
+    <text x="28" y="42" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="760">实时日志</text>
+    <text x="28" y="74" fill="#94a3b8" font-family="Consolas, monospace" font-size="13">[09:42:15] ACTION START: 发送到服务器</text>
+    <text x="28" y="102" fill="#67e8f9" font-family="Consolas, monospace" font-size="13">[09:42:16] SSH SCRIPT UPLOAD: /tmp/cvbridge...</text>
+    <text x="28" y="130" fill="#86efac" font-family="Consolas, monospace" font-size="13">[09:42:17] SSH OK</text>
+    <text x="28" y="158" fill="#86efac" font-family="Consolas, monospace" font-size="13">[09:42:17] ACTION OK: 发送到服务器</text>
+    <text x="28" y="186" fill="#fbbf24" font-family="Consolas, monospace" font-size="13">[09:43:02] xclip not found, using X11 helper</text>
+    <rect x="28" y="208" width="92" height="28" rx="7" fill="#334155"/>
+    <text x="56" y="227" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">刷新</text>
+    <rect x="132" y="208" width="92" height="28" rx="7" fill="#334155"/>
+    <text x="160" y="227" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">复制</text>
+    <rect x="236" y="208" width="106" height="28" rx="7" fill="#0f766e"/>
+    <text x="260" y="227" fill="#ecfeff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">完整日志</text>
+  </g>
+</svg>

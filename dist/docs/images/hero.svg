@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">CV Bridge app overview</title>
+  <desc id="desc">A polished overview mockup of the CV Bridge Windows desktop application.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#164e63"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#020617" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="540" rx="32" fill="url(#bg)"/>
+  <circle cx="1030" cy="108" r="140" fill="#14b8a6" opacity="0.16"/>
+  <circle cx="145" cy="452" r="150" fill="#38bdf8" opacity="0.13"/>
+  <g transform="translate(74 54)">
+    <text x="0" y="0" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Windows SSH Clipboard and File Bridge</text>
+    <text x="0" y="52" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="750">CV Bridge</text>
+    <text x="0" y="92" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="22">一键把本地文本、代码和文件送到远程 Linux 桌面。</text>
+  </g>
+  <g transform="translate(94 170)" filter="url(#shadow)">
+    <rect width="1012" height="306" rx="18" fill="#f8fafc"/>
+    <rect width="1012" height="58" rx="18" fill="#1e293b"/>
+    <rect y="44" width="1012" height="20" fill="#1e293b"/>
+    <circle cx="28" cy="29" r="7" fill="#ef4444"/>
+    <circle cx="52" cy="29" r="7" fill="#f59e0b"/>
+    <circle cx="76" cy="29" r="7" fill="#22c55e"/>
+    <text x="112" y="37" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">CV Bridge</text>
+    <text x="236" y="37" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">SSH clipboard and file bridge</text>
+    <g transform="translate(30 84)">
+      <text x="0" y="0" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Host</text>
+      <rect x="0" y="10" width="180" height="34" rx="7" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="14" y="33" fill="#64748b" font-family="Consolas, monospace" font-size="14">192.168.1.100</text>
+      <text x="198" y="0" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">User</text>
+      <rect x="198" y="10" width="128" height="34" rx="7" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="212" y="33" fill="#64748b" font-family="Consolas, monospace" font-size="14">linux_user</text>
+      <text x="344" y="0" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Key</text>
+      <rect x="344" y="10" width="350" height="34" rx="7" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="358" y="33" fill="#64748b" font-family="Consolas, monospace" font-size="13">%USERPROFILE%\.ssh\id_ed25519</text>
+      <rect x="716" y="10" width="112" height="34" rx="7" fill="#0f766e"/>
+      <text x="743" y="32" fill="#ecfeff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">测试连接</text>
+      <rect x="842" y="10" width="112" height="34" rx="7" fill="#475569"/>
+      <text x="879" y="32" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">保存</text>
+    </g>
+    <g transform="translate(30 154)">
+      <rect width="580" height="118" rx="10" fill="#ffffff" stroke="#dbe4ee"/>
+      <text x="18" y="30" fill="#0f172a" font-family="Consolas, monospace" font-size="15">def hello():</text>
+      <text x="18" y="56" fill="#0f172a" font-family="Consolas, monospace" font-size="15">    print("from Windows to Linux")</text>
+      <rect x="18" y="78" width="132" height="28" rx="6" fill="#0f766e"/>
+      <text x="43" y="97" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">发送到服务器</text>
+      <rect x="166" y="78" width="104" height="28" rx="6" fill="#0ea5e9"/>
+      <text x="190" y="97" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">获取服务器</text>
+      <rect x="294" y="78" width="74" height="28" rx="6" fill="#64748b"/>
+      <text x="318" y="97" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">清空</text>
+      <rect x="606" width="346" height="118" rx="10" fill="#ffffff" stroke="#dbe4ee"/>
+      <text x="626" y="28" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">历史记录</text>
+      <rect x="626" y="44" width="306" height="1" fill="#e2e8f0"/>
+      <text x="626" y="70" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="13">2026-06-05 09:42</text>
+      <text x="780" y="70" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="13">128 bytes</text>
+      <text x="626" y="96" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="13">2026-06-05 09:40</text>
+      <text x="780" y="96" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="13">64 bytes</text>
+    </g>
+  </g>
+</svg>

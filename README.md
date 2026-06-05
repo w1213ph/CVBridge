@@ -2,6 +2,8 @@
 
 CV Bridge 是一个轻量级 Windows 桌面工具，用 SSH 在 Windows 和远程 Linux 桌面之间传输剪贴板文本和文件。
 
+![CV Bridge overview](docs/images/hero.svg)
+
 它适合这些场景：
 
 - 远程桌面、堡垒机、VPN 环境不能直接复制粘贴
@@ -20,6 +22,18 @@ CV Bridge 是一个轻量级 Windows 桌面工具，用 SSH 在 Windows 和远�
 - 内置实时日志面板和完整日志窗口
 - 不保存 SSH 密码，只使用 OpenSSH 密钥
 - 远端核心逻辑运行在用户目录，不需要 root 权限
+
+## 界面预览
+
+![Quick start](docs/images/quick-start.svg)
+
+![Text bridge flow](docs/images/text-bridge.svg)
+
+![File transfer](docs/images/file-transfer.svg)
+
+![Logs and history](docs/images/logs-history.svg)
+
+![Architecture](docs/images/architecture.svg)
 
 ## 系统要求
 

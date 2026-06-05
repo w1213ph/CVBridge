@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">CV Bridge architecture</title>
+  <desc id="desc">Architecture diagram showing Windows UI, OpenSSH, remote workspace, clipboard helper, and Linux desktop.</desc>
+  <rect width="1200" height="430" rx="28" fill="#ffffff"/>
+  <text x="70" y="66" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="760">工作原理</text>
+  <text x="70" y="102" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="18">不需要远端 root 权限，不开自定义服务，只复用 SSH 和用户目录。</text>
+  <g transform="translate(72 160)">
+    <rect width="185" height="112" rx="18" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="30" y="44" fill="#0c4a6e" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="760">Windows UI</text>
+    <text x="30" y="74" fill="#075985" font-family="Segoe UI, Arial, sans-serif" font-size="13">WinForms app</text>
+  </g>
+  <path d="M274 216 H396" stroke="#0891b2" stroke-width="6" stroke-linecap="round"/>
+  <path d="M396 216 l-23 -16 v32 z" fill="#0891b2"/>
+  <text x="303" y="195" fill="#0e7490" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">ssh / scp</text>
+  <g transform="translate(420 160)">
+    <rect width="230" height="112" rx="18" fill="#ecfeff" stroke="#67e8f9"/>
+    <text x="28" y="43" fill="#155e75" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="760">Remote Workspace</text>
+    <text x="28" y="73" fill="#0e7490" font-family="Consolas, monospace" font-size="13">~/.server_clipboard_bridge</text>
+  </g>
+  <path d="M668 216 H790" stroke="#0891b2" stroke-width="6" stroke-linecap="round"/>
+  <path d="M790 216 l-23 -16 v32 z" fill="#0891b2"/>
+  <g transform="translate(814 160)">
+    <rect width="146" height="112" rx="18" fill="#f0fdf4" stroke="#86efac"/>
+    <text x="30" y="43" fill="#166534" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="760">Helper</text>
+    <text x="30" y="73" fill="#15803d" font-family="Segoe UI, Arial, sans-serif" font-size="13">xclip / xsel / X11</text>
+  </g>
+  <path d="M978 216 H1080" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1080 216 l-23 -16 v32 z" fill="#16a34a"/>
+  <g transform="translate(894 305)">
+    <rect width="224" height="54" rx="14" fill="#f8fafc" stroke="#dbe4ee"/>
+    <text x="22" y="35" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="14">fallback: clipboard.txt</text>
+  </g>
+  <g transform="translate(1016 160)">
+    <rect width="128" height="112" rx="18" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="26" y="43" fill="#9a3412" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="760">Linux</text>
+    <text x="26" y="73" fill="#c2410c" font-family="Segoe UI, Arial, sans-serif" font-size="13">Ctrl+V paste</text>
+  </g>
+</svg>

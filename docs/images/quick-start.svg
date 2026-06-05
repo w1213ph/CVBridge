@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Quick start steps</title>
+  <desc id="desc">Three quick start steps for CV Bridge: download, set up SSH key, and test connection.</desc>
+  <rect width="1200" height="430" rx="28" fill="#f8fafc"/>
+  <text x="70" y="68" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="760">三步开始使用</text>
+  <text x="70" y="104" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="18">下载、配置 SSH 密钥、测试连接，然后就能开始传输。</text>
+  <g transform="translate(76 152)">
+    <rect width="300" height="178" rx="20" fill="#ffffff" stroke="#dbe4ee"/>
+    <circle cx="54" cy="54" r="26" fill="#0f766e"/>
+    <text x="46" y="64" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">1</text>
+    <text x="94" y="50" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="760">下载 Release</text>
+    <text x="34" y="102" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="15">解压 `CVBridge-release.zip`</text>
+    <text x="34" y="132" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="15">双击 `CVBridge.exe`</text>
+  </g>
+  <g transform="translate(450 152)">
+    <rect width="300" height="178" rx="20" fill="#ffffff" stroke="#dbe4ee"/>
+    <circle cx="54" cy="54" r="26" fill="#0284c7"/>
+    <text x="46" y="64" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">2</text>
+    <text x="94" y="50" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="760">设置 SSH 密钥</text>
+    <rect x="34" y="88" width="230" height="52" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="48" y="119" fill="#1d4ed8" font-family="Consolas, monospace" font-size="13">setup-ssh-key.ps1</text>
+  </g>
+  <g transform="translate(824 152)">
+    <rect width="300" height="178" rx="20" fill="#ffffff" stroke="#dbe4ee"/>
+    <circle cx="54" cy="54" r="26" fill="#7c3aed"/>
+    <text x="46" y="64" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">3</text>
+    <text x="94" y="50" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="760">保存并测试</text>
+    <text x="34" y="102" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="15">填写 Host / User / Key</text>
+    <rect x="34" y="124" width="128" height="36" rx="9" fill="#0f766e"/>
+    <text x="62" y="148" fill="#ecfeff" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">测试连接</text>
+  </g>
+</svg>
